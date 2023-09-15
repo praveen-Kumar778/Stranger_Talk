@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Stranger Talk</string>
+    <string name="random_video_call">Random Video Call</string>
+    <string name="talk_with_random_people_n_from_all_around_the_globe_nmake_new_freinds_and_have_fun">Talk with Random People \n from all around the globe. \nMake new freinds and have fun</string>
+    <string name="get_started">Get Started</string>
+    <string name="please_login_to_continue">Please login to continue</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="by_continuing_you_are_agreeing_our_terms_and_privacy_policy">By Continuing, you are agreeing our Terms and Privacy Policy</string>
+    <string name="you_have_50">You have : 0</string>
+    <string name="_100">0</string>
+    <string name="person_looking_for_random_people_n_click_find_and_talk_with_them"> Person looking for random people. \n click find and talk with them.</string>
+    <string name="find">find</string>
+    <string name="coins_5">Coins: 5</string>
+    <string name="wallet">WALLET</string>
+    <string name="in_order_to_match_with_random_people_and_make_friends_watch_videos_to_get_coins">In order to match with random people and make friends, watch videos to get coins.</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WelcomeActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/bg_simple"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/strangerLogo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/randomVideoCallText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/random_video_call"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/strangerLogo"
+        app:layout_constraintStart_toStartOf="@id/strangerLogo"
+        app:layout_constraintTop_toBottomOf="@id/strangerLogo"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/randomPeopleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/talk_with_random_people_n_from_all_around_the_globe_nmake_new_freinds_and_have_fun"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/randomVideoCallText"
+        app:layout_constraintStart_toStartOf="@id/randomVideoCallText"
+        app:layout_constraintTop_toBottomOf="@id/randomVideoCallText" />
+
+    <Button
+        android:id="@+id/getStartedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/get_started"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:textAllCaps="false"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/green"
+        app:layout_constraintEnd_toEndOf="@id/randomPeopleText"
+        app:layout_constraintStart_toStartOf="@id/randomPeopleText"
+        app:layout_constraintTop_toBottomOf="@id/randomPeopleText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

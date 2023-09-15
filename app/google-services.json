@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "535451599976",
+    "project_id": "stranger-talk-7a1d9",
+    "storage_bucket": "stranger-talk-7a1d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535451599976:android:8871fc290e2f6584c0a7dd",
+        "android_client_info": {
+          "package_name": "com.example.strangertalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535451599976-8ov2e8revd5m1kr3ab7fen9dnhc3v516.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.strangertalk",
+            "certificate_hash": "7773719873d8019d7f4a27551907cf3e40572449"
+          }
+        },
+        {
+          "client_id": "535451599976-4hi9d79d6eblc2tsv0q4qotvv8u8lkia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6erMQK94evUROZbbJQSMw0Bp8sBJXHbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535451599976-4hi9d79d6eblc2tsv0q4qotvv8u8lkia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
